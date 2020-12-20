@@ -1,0 +1,14 @@
+
+spring:
+  application:
+    name: demo
+feign:
+  client:
+    config:
+      feignName:
+        connectTimeout: 5000
+        readTimeout: 5000
+
+  hystrix:
+    enabled: true
+
