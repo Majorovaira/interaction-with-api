@@ -19,6 +19,7 @@ public class DogServiceImpl implements DogService {
     @Autowired
     private DogClient dogClient;
 
+
     @Override
     public byte[] getDog() throws IOException {
 

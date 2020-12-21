@@ -16,4 +16,6 @@ public interface DogClient {
     @RequestMapping(method = RequestMethod.GET)
     Dog[] getDog();
 
+
+
 }
